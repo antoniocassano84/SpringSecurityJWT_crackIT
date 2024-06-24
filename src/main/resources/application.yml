@@ -3,8 +3,8 @@ spring:
     name: SpringSecurityJWT
   datasource:
     url: jdbc:postgresql://localhost:5432/springsecurity
-    username:
-    password:
+    username: postgres
+    password: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
